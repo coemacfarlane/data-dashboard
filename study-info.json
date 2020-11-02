@@ -1,0 +1,492 @@
+{
+    "link":{
+       "rel":"self",
+       "url":"https://www.sciencebase.gov/catalog/item/5acb7c9ee4b0e2c2dd13ccc9"
+    },
+    "relatedItems":{
+       "link":{
+          "url":"https://www.sciencebase.gov/catalog/itemLinks?itemId=5acb7c9ee4b0e2c2dd13ccc9",
+          "rel":"related"
+       }
+    },
+    "id":"5acb7c9ee4b0e2c2dd13ccc9",
+    "identifiers":[
+       {
+          "type":"DOI",
+          "scheme":"https://www.sciencebase.gov/vocab/category/item/identifier",
+          "key":"doi:10.5066/P91LIQ0T"
+       }
+    ],
+    "title":"Bee populations and habitat survey in southwest Louisiana grasslands",
+    "summary":"The coastal prairie of Louisiana is classified as a Tier 1 Habitat in the Louisiana Department of Wildlife and Fisheries’ Wildlife Action Plan, meaning that it is a priority habitat of primary conservation concern. Declines in pollinator populations worldwide have prompted questions about the role of such grasslands as habitat for pollinators. In this study, we surveyed bee populations and the plant communities present in the following three grassland types in southwest Louisiana: prairie remnants, restored prairies, and old fields.",
+    "body":"The coastal prairie of Louisiana is classified as a Tier 1 Habitat in the Louisiana Department of Wildlife and Fisheries’ Wildlife Action Plan, meaning that it is a priority habitat of primary conservation concern. Declines in pollinator populations worldwide have prompted questions about the role of such grasslands as habitat for pollinators. In this study, we surveyed bee populations and the plant communities present in the following three grassland types in southwest Louisiana: prairie remnants, restored prairies, and old fields.",
+    "citation":"Allain, L.K., 2019, Bee populations and habitat survey in southwest Louisiana grasslands: U.S. Geological Survey data release, https://doi.org/10.5066/P91LIQ0T.",
+    "purpose":"Among insect groups, interest in pollinators has exploded in the last several years. This interest is reflected by the Presidential Memorandum of June 2014 directing federal agencies to support research on pollinator status and distribution. In the same year, the U. S. Fish and Wildlife Service announced that it would conduct a status review of the Monarch butterfly under the Endangered Species Act. Despite this interest, very few systematic studies of insects have been conducted in Louisiana, and publications with data from the state often exclude the southwest portion (Lambremont, 1954; Ross and Lambremont, 1963; Opler and Malikup; 1998). Only two studies of bees have been conducted in Louisiana and they were restricted to longleaf pine savannas (Bartholomew and Prowell, 2006) and a study by Bossart (pers. comm.) focused on the East Gulf Coastal Plain. This lack of information on the status of bees inhibits conservation efforts. The purpose of this work is to advance understanding of bee communities in the endangered coastal prairie of southwestern Louisiana.",
+    "provenance":{
+       "dateCreated":"2018-04-09T14:45:50Z",
+       "lastUpdated":"2020-08-31T02:37:56Z"
+    },
+    "maintenanceUpdateFrequency":"None planned",
+    "hasChildren":false,
+    "parentId":"561d4e72e4b0cdb063e58592",
+    "contacts":[
+       {
+          "name":"Larry K Allain",
+          "oldPartyId":126,
+          "type":"Point of Contact",
+          "contactType":"person",
+          "email":"allainl@usgs.gov",
+          "active":true,
+          "jobTitle":"Emeritus",
+          "firstName":"Larry",
+          "middleName":"K",
+          "lastName":"Allain",
+          "organization":{
+             "displayText":"National Wetlands Research Center"
+          },
+          "primaryLocation":{
+             "name":"Larry K Allain/BRD/USGS/DOI - Primary Location",
+             "building":"WARC - Office/LAb Building",
+             "buildingCode":"KFA",
+             "officePhone":"3372668677",
+             "streetAddress":{
+                "line1":"700 Cajundome Blvd",
+                "city":"Lafayette",
+                "state":"LA",
+                "zip":"70506",
+                "country":"US"
+             },
+             "mailAddress":{
+                "line1":"700 Cajundome Blvd.",
+                "city":"Lafayette",
+                "state":"LA",
+                "zip":"70506",
+                "country":"USA"
+             }
+          },
+          "orcId":"0000-0002-7717-9761"
+       },
+       {
+          "name":"Larry K Allain",
+          "oldPartyId":126,
+          "type":"Originator",
+          "contactType":"person",
+          "email":"allainl@usgs.gov",
+          "active":true,
+          "jobTitle":"Emeritus",
+          "firstName":"Larry",
+          "middleName":"K",
+          "lastName":"Allain",
+          "organization":{
+             "displayText":"National Wetlands Research Center"
+          },
+          "primaryLocation":{
+             "name":"Larry K Allain/BRD/USGS/DOI - Primary Location",
+             "building":"WARC - Office/LAb Building",
+             "buildingCode":"KFA",
+             "officePhone":"3372668677",
+             "streetAddress":{
+                "line1":"700 Cajundome Blvd",
+                "city":"Lafayette",
+                "state":"LA",
+                "zip":"70506",
+                "country":"US"
+             },
+             "mailAddress":{
+                "line1":"700 Cajundome Blvd.",
+                "city":"Lafayette",
+                "state":"LA",
+                "zip":"70506",
+                "country":"USA"
+             }
+          },
+          "orcId":"0000-0002-7717-9761"
+       },
+       {
+          "name":"Evelyn R Anemaet",
+          "oldPartyId":251,
+          "type":"Metadata Contact",
+          "contactType":"person",
+          "email":"anemaete@usgs.gov",
+          "active":true,
+          "jobTitle":"Ecologist",
+          "firstName":"Evelyn",
+          "middleName":"R",
+          "lastName":"Anemaet",
+          "organization":{
+             "displayText":"National Wetlands Research Center"
+          },
+          "primaryLocation":{
+             "name":"Evelyn R Anemaet/BRD/CONT/USGS/DOI - Primary Location",
+             "building":"WARC - Office/LAb Building",
+             "buildingCode":"KFA",
+             "officePhone":"3372668630",
+             "streetAddress":{
+                "line1":"700 Cajundome Blvd",
+                "city":"Lafayette",
+                "state":"LA",
+                "zip":"70506"
+             },
+             "mailAddress":{
+                "line1":"700 Cajundome Blvd.",
+                "city":"Lafayette",
+                "state":"LA",
+                "zip":"70506",
+                "country":"USA"
+             }
+          },
+          "orcId":"0000-0002-9743-8732"
+       },
+       {
+          "name":"U.S. Geological Survey",
+          "oldPartyId":18139,
+          "type":"Publisher",
+          "contactType":"organization",
+          "onlineResource":"http://www.usgs.gov/",
+          "active":true,
+          "aliases":[
+             "{\"name\":\"Geological Survey (U.S.)\"}",
+             "{\"name\":\"USGS\"}",
+             "{\"name\":\"U.S. GEOLOGICAL SURVEY\"}"
+          ],
+          "fbmsCodes":[
+             "GG00000000"
+          ],
+          "logoUrl":"http://my.usgs.gov/static-cache/images/dataOwner/v1/logosMed/USGSLogo.gif",
+          "smallLogoUrl":"http://my.usgs.gov/static-cache/images/dataOwner/v1/logosSmall/USGSLogo.gif",
+          "organization":{
+             
+          },
+          "primaryLocation":{
+             "name":"U.S. Geological Survey - Location",
+             "streetAddress":{
+                
+             },
+             "mailAddress":{
+                
+             }
+          }
+       },
+       {
+          "name":"U.S. Geological Survey - ScienceBase",
+          "oldPartyId":70157,
+          "type":"Distributor",
+          "contactType":"organization",
+          "onlineResource":"https://www.sciencebase.gov",
+          "email":"sciencebase@usgs.gov",
+          "organization":{
+             
+          },
+          "primaryLocation":{
+             "name":"U.S. Geological Survey - ScienceBase - Location",
+             "officePhone":"18882758747",
+             "streetAddress":{
+                
+             },
+             "mailAddress":{
+                "line1":"Denver Federal Center",
+                "line2":"Building 810",
+                "mailStopCode":"302",
+                "city":"Denver",
+                "state":"CO",
+                "zip":"80225",
+                "country":"United States"
+             }
+          }
+       },
+       {
+          "name":"Ecosystems",
+          "type":"USGS Mission Area",
+          "contactType":"organization",
+          "organization":{
+             "directoryId":"17044",
+             "displayText":"Ecosystems"
+          },
+          "primaryLocation":{
+             "streetAddress":{
+                
+             },
+             "mailAddress":{
+                
+             }
+          }
+       },
+       {
+          "name":"Wetland and Aquatic Research Center",
+          "oldPartyId":70182,
+          "type":"SDC Data Owner",
+          "contactType":"organization",
+          "active":true,
+          "organization":{
+             
+          },
+          "primaryLocation":{
+             "name":"Wetlands and Aquatic Research Center - Location",
+             "streetAddress":{
+                
+             },
+             "mailAddress":{
+                
+             }
+          }
+       }
+    ],
+    "webLinks":[
+       {
+          "type":"Related_Primary_Publication",
+          "typeLabel":"Related Primary Publication",
+          "uri":"https://doi.org/10.4289/0013-8797.120.2.272",
+          "title":"Owens, B.E., Allain, L.K., VanGorder, E.C., Bossart, J.L., and Carlton, C.E., 2018, The bees (Hymenoptera: Apoidea) of Louisiana: an updated, annotated checklist: Proceedings of the Entomological Society of Washington, v. 120, no. 2, p. 272-307, https://doi.org/10.4289/0013-8797.120.2.272",
+          "hidden":false
+       }
+    ],
+    "browseCategories":[
+       "Data"
+    ],
+    "systemTypes":[
+       "Data Release"
+    ],
+    "tags":[
+       {
+          "type":"Harvest Set",
+          "name":"USGS Science Data Catalog (SDC)"
+       },
+       {
+          "type":"Theme",
+          "scheme":"USGS Thesaurus",
+          "name":"pollinators"
+       },
+       {
+          "type":"Theme",
+          "scheme":"Alexandria Digital Library Feature Type Thesaurus",
+          "name":"grasslands"
+       },
+       {
+          "type":"Place",
+          "scheme":"GNIS",
+          "name":"Cameron Prairie National Wildlife Refuge"
+       },
+       {
+          "type":"Place",
+          "scheme":"GNIS",
+          "name":"Estherwood"
+       },
+       {
+          "type":"Place",
+          "scheme":"GNIS",
+          "name":"Gum Cove Ridge"
+       },
+       {
+          "type":"Place",
+          "scheme":"GNIS",
+          "name":"Lacassine National Wildlife Refuge"
+       },
+       {
+          "type":"Place",
+          "scheme":"None",
+          "name":"Grey Ranch"
+       },
+       {
+          "type":"Place",
+          "scheme":"None",
+          "name":"Eunice Prairie Restoration"
+       },
+       {
+          "type":"Place",
+          "scheme":"None",
+          "name":"Durald Prairie Restoration"
+       },
+       {
+          "type":"Place",
+          "scheme":"None",
+          "name":"Cajun Prairie Farms"
+       },
+       {
+          "type":"USGS Scientific Topic Keyword",
+          "name":"Ecology"
+       },
+       {
+          "type":"USGS Scientific Topic Keyword",
+          "name":"Wildlife Biology"
+       }
+    ],
+    "dates":[
+       {
+          "type":"Publication",
+          "dateString":"2019-09-26",
+          "label":"Publication Date"
+       },
+       {
+          "type":"Start",
+          "dateString":"2015",
+          "label":""
+       },
+       {
+          "type":"End",
+          "dateString":"2017",
+          "label":""
+       }
+    ],
+    "spatial":{
+       "boundingBox":{
+          "minX":-93.367309570184,
+          "maxX":-91.818237304625,
+          "minY":30.021164678563,
+          "maxY":30.72257270171
+       }
+    },
+    "files":[
+       {
+          "cuid":null,
+          "key":null,
+          "bucket":null,
+          "published":null,
+          "node":null,
+          "name":"Bee data.csv",
+          "title":"",
+          "contentType":"text/csv",
+          "contentEncoding":null,
+          "pathOnDisk":"__disk__4f/cb/a7/4fcba7f58b76a812ea324192cfdf6ccdae6b9a7f",
+          "processed":false,
+          "processToken":null,
+          "imageWidth":null,
+          "imageHeight":null,
+          "size":681859,
+          "dateUploaded":"2018-09-04T16:54:17Z",
+          "originalMetadata":false,
+          "useForPreview":false,
+          "s3Object":null,
+          "checksum":null,
+          "url":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__4f%2Fcb%2Fa7%2F4fcba7f58b76a812ea324192cfdf6ccdae6b9a7f",
+          "downloadUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__4f%2Fcb%2Fa7%2F4fcba7f58b76a812ea324192cfdf6ccdae6b9a7f",
+          "viewUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__4f%2Fcb%2Fa7%2F4fcba7f58b76a812ea324192cfdf6ccdae6b9a7f&allowOpen=true"
+       },
+       {
+          "cuid":null,
+          "key":null,
+          "bucket":null,
+          "published":null,
+          "node":null,
+          "name":"Bee veg quadrat_2016-2017.csv",
+          "title":"",
+          "contentType":"text/csv",
+          "contentEncoding":null,
+          "pathOnDisk":"__disk__e9/db/f3/e9dbf3e415ae507f1b0c1529aabe35684ee3cc2e",
+          "processed":false,
+          "processToken":null,
+          "imageWidth":null,
+          "imageHeight":null,
+          "size":92920,
+          "dateUploaded":"2018-09-04T16:55:07Z",
+          "originalMetadata":false,
+          "useForPreview":false,
+          "s3Object":null,
+          "checksum":null,
+          "url":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__e9%2Fdb%2Ff3%2Fe9dbf3e415ae507f1b0c1529aabe35684ee3cc2e",
+          "downloadUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__e9%2Fdb%2Ff3%2Fe9dbf3e415ae507f1b0c1529aabe35684ee3cc2e",
+          "viewUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__e9%2Fdb%2Ff3%2Fe9dbf3e415ae507f1b0c1529aabe35684ee3cc2e&allowOpen=true"
+       },
+       {
+          "cuid":null,
+          "key":null,
+          "bucket":null,
+          "published":null,
+          "node":null,
+          "name":"FamSciCommon_Bee_Veg.csv",
+          "title":"",
+          "contentType":"text/csv",
+          "contentEncoding":null,
+          "pathOnDisk":"__disk__9d/7d/41/9d7d41fa6996d87113903b63e90a12450add03e3",
+          "processed":false,
+          "processToken":null,
+          "imageWidth":null,
+          "imageHeight":null,
+          "size":19253,
+          "dateUploaded":"2018-09-04T16:55:50Z",
+          "originalMetadata":false,
+          "useForPreview":false,
+          "s3Object":null,
+          "checksum":null,
+          "url":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__9d%2F7d%2F41%2F9d7d41fa6996d87113903b63e90a12450add03e3",
+          "downloadUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__9d%2F7d%2F41%2F9d7d41fa6996d87113903b63e90a12450add03e3",
+          "viewUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__9d%2F7d%2F41%2F9d7d41fa6996d87113903b63e90a12450add03e3&allowOpen=true"
+       },
+       {
+          "cuid":null,
+          "key":null,
+          "bucket":null,
+          "published":null,
+          "node":null,
+          "name":"BeeVeg_SWLa.xml",
+          "title":"",
+          "contentType":"application/fgdc+xml",
+          "contentEncoding":null,
+          "pathOnDisk":"__disk__d1/0c/c2/d10cc2fca3f8c8eead1f7e18ed099db923d1db13",
+          "processed":false,
+          "processToken":null,
+          "imageWidth":null,
+          "imageHeight":null,
+          "size":67284,
+          "dateUploaded":"2020-08-31T02:37:56Z",
+          "originalMetadata":true,
+          "useForPreview":false,
+          "s3Object":null,
+          "checksum":null,
+          "url":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__d1%2F0c%2Fc2%2Fd10cc2fca3f8c8eead1f7e18ed099db923d1db13",
+          "downloadUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__d1%2F0c%2Fc2%2Fd10cc2fca3f8c8eead1f7e18ed099db923d1db13",
+          "metadataHtmlViewUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__d1%2F0c%2Fc2%2Fd10cc2fca3f8c8eead1f7e18ed099db923d1db13&transform=1"
+       }
+    ],
+    "distributionLinks":[
+       {
+          "uri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9",
+          "title":"Download Attached Files",
+          "type":"downloadLink",
+          "typeLabel":"Download Link",
+          "rel":"alternate",
+          "name":"Beepopulationsa.zip",
+          "files":[
+             {
+                "name":"Bee data.csv",
+                "title":"",
+                "contentType":"text/csv",
+                "size":681859
+             },
+             {
+                "name":"Bee veg quadrat_2016-2017.csv",
+                "title":"",
+                "contentType":"text/csv",
+                "size":92920
+             },
+             {
+                "name":"FamSciCommon_Bee_Veg.csv",
+                "title":"",
+                "contentType":"text/csv",
+                "size":19253
+             },
+             {
+                "name":"BeeVeg_SWLa.xml",
+                "title":"",
+                "contentType":"application/fgdc+xml",
+                "size":67284
+             }
+          ]
+       }
+    ],
+    "previewImage":{
+       "from":"mapPreview",
+       "original":{
+          "uri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__e5%2Fba%2Fd0%2Fe5bad028d8341ca10afe898c7563a6fc5bc0ba7d",
+          "viewUri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__e5%2Fba%2Fd0%2Fe5bad028d8341ca10afe898c7563a6fc5bc0ba7d&width=360&height=240",
+          "viewUrl":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?deprecated=__use__viewUri__instead__&f=__disk__e5%2Fba%2Fd0%2Fe5bad028d8341ca10afe898c7563a6fc5bc0ba7d&width=360&height=240",
+          "width":360,
+          "height":240,
+          "size":163443
+       },
+       "thumbnail":{
+          "uri":"https://www.sciencebase.gov/catalog/file/get/5acb7c9ee4b0e2c2dd13ccc9?f=__disk__e5%2Fba%2Fd0%2Fe5bad028d8341ca10afe898c7563a6fc5bc0ba7d&width=150&height=100",
+          "width":150,
+          "height":100
+       }
+    }
+ }

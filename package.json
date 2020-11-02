@@ -1,0 +1,25 @@
+{
+  "name": "pollinator-charts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coemacfarlane/pollinator-charts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coemacfarlane/pollinator-charts/issues"
+  },
+  "homepage": "https://github.com/coemacfarlane/pollinator-charts#readme",
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.9",
+    "bootstrap": "^4.5.3",
+    "c3": "^0.7.20",
+    "jquery": "^3.5.1"
+  }
+}

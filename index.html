@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Bees Data</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/usaLow.js" type="text/javascript"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/light.js" type="text/javascript"></script>
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <section class="container">
+        <div class="row pb-2 bottom-border">
+            <div class="col-md-8 pt-5">
+                <h1 class="display-3"><b>Honey Bee Colonies</b></h1>
+                <h2 class="pb-3 blue">United States: January-March, 2019 </h2>
+            </div>
+            <div class="col-md-4 pt-5 text-right">
+                <p>Written By: Coe MacFarlane <br>November 1, 2020</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 px-3">
+                <p>Public awareness around Colony Collapse Disorder has increased drastically over the past 
+                    several years along with the rate at which these colonies are dying. This serious disorder
+                     is caused by a slew of complex environmental factors but societal changes and public
+                      programs that support bee populations across America are helping to combat this 
+                      phenomenon. On January 1, 2019 Honey Bee colonies for operations numbering 5 or more
+                    were up 1% from the previous year but it is unclear if this is the start of a true recovery 
+                    or a happy but temporary uptick. As of July 2019, quarterly data collection by y the National Agricultural Statistics Service (NASS)
+                    has been suspended due to a lack of budget. I have elected to analyze some of the data made public in
+                 their final quarter of operation and make digestable the raw numbers.</p>
+            </div>
+            <div class="col-md-12 pt-5">
+                <h3>Percentage of Bee Colonies Lost Compared to Number of Colonies in January</h3>
+                <div id="mapdiv" style="width: 100%; height: 450px;"></div>
+                <p class="py-3">
+                    The map above illustrates the American States and their corresponding 
+                    rates of Honey Bee Colonies lost from January to March calculated as a percentage out of 
+                    the initial number of colonies alive on January first. Darker colors indicate a higher
+                    rate of colonies lost to colony collapse disorder. Those which are pale white and do not have numbers 
+                    listed in the window which appears when you hover over, are states which the government 
+                    was unable to collect data for.
+                </p>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-md-12 pb-3">
+                <h1>States Leading in: </h1>
+            </div>
+            <div class="col-md-6">
+                <div class="semi-chart-container">
+                    <h3 class="bottom-border text-center">Drastic Increase in Colony Numbers</h3>
+                    <div class="my-3" id="chartdiv" style="width: 100%; height: 400px"></div>
+                    <p class="py-3">
+                        From January 1st to some point in the quarter these states saw an increase in their 
+                        number of hives. This chart displays the ten states which have the greatest difference 
+                        between their number of colonies at the beginning of the quarter and their maximum 
+                        number of hives at any given point in the quarter. This chart is not calculated by 
+                        ratios but by raw numbers regarding operations with 5 or more colonies.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="semi-chart-container">
+                    <h3 class="bottom-border text-center">The Lost to Added Colony Ratios</h3>
+                    <div class="my-3" id="ratiochart" style="width: 100%; height: 400px"></div>
+                    <p class="py-3">
+                        This chart contextualizes the percentage of colonies lost in a state out of their initial number of colonies 
+                        to the similarly calculated percentage of colonies added. These ten states had the greatest difference 
+                        between these percentages. Since all states did lose more colonies than could be added, I have here 
+                        displayed the most drastic instances of these phenomenon. For the United States in its entirety, 407700 
+                        colonies were lost to colony collapse disorder and 247710 were added.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="py-3">See the Data</h1>
+                <p class="py-3">
+                    Below you can find all the data used to make the charts above. You can navigate using arrows or 
+                    by searching for key words. Below the table you will also find a link to the entire study and data 
+                    from multiple years of collection.
+                </p>
+                <table class="data-table" >
+                    <thead>
+                        <tr>
+                            <th>state</th>
+                            <th>initial_colonies</th>
+                            <th>max_colonies</th>
+                            <th>lost_colonies</th>
+                            <th>added_colonies</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>See the raw data for multiple quarters <a class="blue" href="https://downloads.usda.library.cornell.edu/usda-esmis/files/rn301137d/f7623q868/ft849239n/hcny0819.pdf">here.</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script> <!--https://datatables.net/-->
+<script src="js/d3.min.js" charset="utf-8"></script>
+<script src="js/c3.min.js"></script>
+
+<script src="//cdn.amcharts.com/lib/4/core.js"></script>
+<script src="//cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="//cdn.amcharts.com/lib/4/maps.js"></script>
+
+<script type="module" src="js/view.js"></script>
+<script type="module" src="js/script.js"></script>
+
+</html>
